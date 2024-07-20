@@ -5,7 +5,7 @@ const UserCards = ({ first_name, last_name, email, phone_number, id }) => {
   return (
     <div
       className="
-    w-[250px] h-[320px] m-4 shadow-[0px_0px_30px_rgba(0,0,0,0.123)] flex flex-col items-center justify-start duration-[0.5s] rounded-xl bg-[#5C677D]"
+     box-border w-[300px] h-[370px] m-4 shadow-[0px_0px_30px_rgba(0,0,0,0.123)] flex flex-col items-center justify-start duration-[0.5s] rounded-xl bg-[#5C677D]"
     >
       <img
         src={`https://robohash.org/${id}?set=set5`}
@@ -13,7 +13,7 @@ const UserCards = ({ first_name, last_name, email, phone_number, id }) => {
         className="w-[170px] h-[170px] shadow-[5px_10px_20px_rgba(0,0,0,0.329)] mt-5 rounded-full bg-gradient-to-r from-[rgb(54,54,54)] to-[rgb(32,32,32)] shadow-custom "
       />
       <div className=" w-full text-left flex flex-col gap-2.5 p-5">
-        <div className="   text-[0.9em] font-semibold text-white tracking-[0.5px]">{`${first_name} ${last_name}`}</div>
+        <div className="   text-[20px] font-semibold text-white tracking-[0.5px]">{`${first_name} ${last_name}`}</div>
         <div className="flex text-[0.84em] text-[rgb(194,194,194)] tracking-[0.2px] gap-1">
           <Mail /> {`${email}`}
         </div>
